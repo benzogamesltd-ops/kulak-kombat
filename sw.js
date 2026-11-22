@@ -1,6 +1,6 @@
 // Офлайн-режим Kulak Kombat: игра открывается без интернета,
 // а при наличии сети тихо подтягивает свежую версию к следующему запуску.
-const CACHE = 'kk-v1';
+const CACHE = 'kk-v2';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'];
 
 self.addEventListener('install', e => {
