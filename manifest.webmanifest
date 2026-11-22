@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Kulak Kombat",
+  "short_name": "Kulak Kombat",
+  "description": "Сатирический файтинг: 10 героев, 10 бойцов Батьки, Мировой тур по 10 странам, серии ударов, щиты и магазин.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#0f1a24",
+  "theme_color": "#0f1a24",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshots/phone-1.png", "sizes": "390x780", "type": "image/png", "form_factor": "narrow", "label": "Бой: удар локтем" },
+    { "src": "screenshots/phone-2.png", "sizes": "390x780", "type": "image/png", "form_factor": "narrow", "label": "Начало боя" },
+    { "src": "screenshots/wide-1.png", "sizes": "1400x820", "type": "image/png", "form_factor": "wide", "label": "Мировой тур: Париж" }
+  ]
+}
